@@ -25,7 +25,9 @@ const PlatformDropdown = ({ onSelectPlatform, selectedPlatform }: Props) => {
   return (
     <Menu>
       <MenuButton as={Button} rightIcon={<Icon as={BsChevronDown} />}>
-        {selectedPlatform?.name || "Platforms"}
+        {selectedPlatform?.name
+          ? `Platform: ${selectedPlatform?.name}`
+          : "Platforms"}
       </MenuButton>
       <MenuList>
         {data.map((platform) => (
