@@ -8,6 +8,7 @@ export interface Game {
   background_image: string;
   parent_platforms: { platform: Platform }[]; // An array of objects, each containing a `platform` of type `PlatForm`
   metacritic: number;
+  rating_top: number;
 }
 
 const useGames = (gameQuery: GameQuery) =>
