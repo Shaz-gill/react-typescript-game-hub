@@ -7,7 +7,7 @@ export interface Game {
   id: number;
   name: string;
   background_image: string;
-  parent_platforms: { platform: Platform }[]; // An array of objects, each containing a `platform` of type `PlatForm`
+  parent_platforms: { platform: Platform }[];
   metacritic: number;
   rating_top: number;
 }
@@ -18,6 +18,7 @@ const useGames = (gameQuery: GameQuery) =>
   useQuery<FetchResponse<Game>, Error>({
     queryKey: ["games", gameQuery], // If any of the values in "gameQuery" changes then react-query fetch games
     queryFn: () =>
+      // () We define a function here, because we need to pass the parameters
       apiClient.getAll({
         params: {
           genres: gameQuery.genre?.id,
