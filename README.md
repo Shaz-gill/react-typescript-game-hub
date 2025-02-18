@@ -2,6 +2,8 @@
 
 A sleek and interactive game discovery web application built with **React**, **TypeScript**, and **React Query**. Explore, search, and filter your favorite games with a modern, responsive UI designed for an immersive experience.
 
+This project uses the **RAWG.io API** to fetch and display detailed game information, providing users with a comprehensive gaming database.
+
 ---
 
 ## ✨ Features
@@ -11,7 +13,8 @@ A sleek and interactive game discovery web application built with **React**, **T
 ✅ A **modern, responsive UI** built with Chakra UI.  
 ✅ **Type safety** with TypeScript for a smooth development experience.  
 ✅ **Optimized data fetching and caching** using React Query.  
-✅ **Fluid animations** powered by Framer Motion.
+✅ **Fluid animations** powered by Framer Motion.  
+✅ **Game data powered by RAWG.io API**.
 
 ---
 
@@ -23,7 +26,8 @@ A sleek and interactive game discovery web application built with **React**, **T
 🎨 **Chakra UI** - Beautiful and accessible UI components.  
 🌐 **Axios** - Simplified API handling.  
 🎭 **Framer Motion** - Seamless animations.  
-🎨 **React Icons** - Collection of versatile icons.
+🎨 **React Icons** - Collection of versatile icons.  
+🌍 **RAWG.io API** - Game data provider.
 
 ---
 
@@ -73,12 +77,6 @@ npm install
 ```sh
 npm run dev
 ```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Feel free to open an **issue** or submit a **pull request** to improve the project. 🚀
 
 ---
 
