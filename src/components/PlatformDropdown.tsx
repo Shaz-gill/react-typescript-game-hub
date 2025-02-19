@@ -12,11 +12,14 @@ import usePlatform, { Platform } from "../hooks/usePlatform";
 
 interface Props {
   onSelectPlatform: (platform: Platform) => void;
-  selectedPlatform: Platform | null;
+  selectedPlatformId?: number;
 }
 
-const PlatformDropdown = ({ onSelectPlatform, selectedPlatform }: Props) => {
+const PlatformDropdown = ({ onSelectPlatform, selectedPlatformId }: Props) => {
   const { data, isLoading, error } = usePlatform();
+  const selectedPlatform = data?.results.find(
+    (platform) => platform.id === selectedPlatformId
+  );
 
   if (error) return null;
   if (isLoading) return <Spinner />;
