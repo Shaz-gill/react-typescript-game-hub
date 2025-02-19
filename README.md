@@ -4,6 +4,8 @@ A sleek and interactive game discovery web application built with **React**, **T
 
 This project uses the **RAWG.io API** to fetch and display detailed game information, providing users with a comprehensive gaming database.
 
+⚠️ **Note:** This is a **hobby project** and is only the frontend part of the application. It uses my RAWG API key, which can be seen by anyone using developer tools. Be mindful of API usage limits! It is **not recommended** to expose API keys in frontend code, as they can be easily accessed by anyone. Instead, API keys should be stored securely in environment variables on a backend server to prevent unauthorized usage.
+
 ---
 
 ## ✨ Features
@@ -14,6 +16,7 @@ This project uses the **RAWG.io API** to fetch and display detailed game informa
 ✅ **Type safety** with TypeScript for a smooth development experience.  
 ✅ **Optimized data fetching and caching** using React Query.  
 ✅ **Fluid animations** powered by Framer Motion.  
+✅ **Infinite scrolling** for seamless game browsing.  
 ✅ **Game data powered by RAWG.io API**.
 
 ---
@@ -27,6 +30,7 @@ This project uses the **RAWG.io API** to fetch and display detailed game informa
 🌐 **Axios** - Simplified API handling.  
 🎭 **Framer Motion** - Seamless animations.  
 🎨 **React Icons** - Collection of versatile icons.  
+🔄 **React Infinite Scroll Component** - Smooth infinite scrolling experience.  
 🌍 **RAWG.io API** - Game data provider.
 
 ---
@@ -37,16 +41,19 @@ This project is powered by the following libraries:
 
 ```json
 {
-  "@chakra-ui/react": "^2.10.5",
-  "@emotion/react": "^11.14.0",
-  "@emotion/styled": "^11.14.0",
-  "@tanstack/react-query": "4.28",
-  "@tanstack/react-query-devtools": "4.28",
-  "axios": "^1.7.9",
-  "framer-motion": "^12.0.6",
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "react-icons": "^5.4.0"
+  "dependencies": {
+    "@chakra-ui/react": "^2.10.5",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@tanstack/react-query": "4.28",
+    "@tanstack/react-query-devtools": "4.28",
+    "axios": "^1.7.9",
+    "framer-motion": "^12.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
+    "react-infinite-scroll-component": "6.1"
+  }
 }
 ```
 
