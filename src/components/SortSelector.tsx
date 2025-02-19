@@ -4,7 +4,6 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
-  Spinner,
   Icon,
 } from "@chakra-ui/react";
 import { BsChevronDown } from "react-icons/bs";
