@@ -8,7 +8,8 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import { BsChevronDown } from "react-icons/bs";
-import usePlatform, { Platform } from "../hooks/usePlatform";
+import usePlatforms, { Platform } from "../hooks/usePlatforms";
+import usePlatform from "../hooks/usePlatform";
 
 interface Props {
   onSelectPlatform: (platform: Platform) => void;
@@ -16,10 +17,8 @@ interface Props {
 }
 
 const PlatformDropdown = ({ onSelectPlatform, selectedPlatformId }: Props) => {
-  const { data, isLoading, error } = usePlatform();
-  const selectedPlatform = data?.results.find(
-    (platform) => platform.id === selectedPlatformId
-  );
+  const { data, isLoading, error } = usePlatforms();
+  const selectedPlatform = usePlatform(selectedPlatformId);
 
   if (error) return null;
   if (isLoading) return <Spinner />;
