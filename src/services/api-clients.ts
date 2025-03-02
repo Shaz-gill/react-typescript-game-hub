@@ -20,10 +20,16 @@ class APIClient<T> {
     this.endpoint = endpoint;
   }
 
-  // "config" is for out useGames hook because we pass extra parameters in the query
+  // "config" is for our useGames hook because we pass extra parameters in the query
   getAll = (config: AxiosRequestConfig) => {
     return axiosInstance
       .get<FetchResponse<T>>(this.endpoint, config)
+      .then((response) => response.data);
+  };
+
+  get = (id: string | number) => {
+    return axiosInstance
+      .get<T>(this.endpoint + "/" + id)
       .then((response) => response.data);
   };
 }
