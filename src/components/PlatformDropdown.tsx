@@ -1,15 +1,15 @@
 import {
   Button,
+  Icon,
   Menu,
   MenuButton,
   MenuItem,
   MenuList,
   Spinner,
-  Icon,
 } from "@chakra-ui/react";
 import { BsChevronDown } from "react-icons/bs";
-import usePlatforms from "../hooks/usePlatforms";
 import usePlatform from "../hooks/usePlatform";
+import usePlatforms from "../hooks/usePlatforms";
 import useGameQueryStore from "../store";
 
 const PlatformDropdown = () => {
