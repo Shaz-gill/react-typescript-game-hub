@@ -5,7 +5,7 @@ Explore, search, and filter your favorite games with a **stunning UI**, powered 
 
 🌟 **Discover. Search. Play.**
 
-![Game Verse Preview](https://gameverse.shahzadtariq.com)
+![Game Verse Preview](https://gameverse.shahzadtariq.com/)
 
 ---
 

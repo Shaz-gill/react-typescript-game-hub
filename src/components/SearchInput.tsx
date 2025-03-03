@@ -1,4 +1,4 @@
-import { Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
+import { Box, Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import { useRef } from "react";
 import { BsSearch } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
@@ -19,15 +19,12 @@ const SearchInput = () => {
         }
       }}
     >
-      <InputGroup>
-        <InputLeftElement children={<BsSearch />} />
-        <Input
-          ref={ref}
-          borderRadius={20}
-          placeholder="Search games..."
-          variant="filled"
-        />
-      </InputGroup>
+      <Box paddingLeft={3}>
+        <InputGroup>
+          <InputLeftElement children={<BsSearch />} />
+          <Input ref={ref} placeholder="Search games..." variant="filled" />
+        </InputGroup>
+      </Box>
     </form>
   );
 };
