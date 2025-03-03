@@ -5,40 +5,42 @@ Explore, search, and filter your favorite games with a **stunning UI**, powered 
 
 🌟 **Discover. Search. Play.**
 
-![Game Verse Preview](https://gameverse.shahzadtariq.com/)
+🔗 **Live Demo:** [Game Verse](https://gameverse.shahzadtariq.com/) 🌍
+
+![Game Verse Preview](public/preview.png)
 
 ---
 
-## ✨ Features
+## ✨ Features ✨
 
-✔ **Browse & Search** – Find games by **genre, platform, and rating**.  
-✔ **Smart Filtering & Sorting** – Narrow down results with multiple criteria.  
-✔ **Responsive & Modern UI** – Built with **Chakra UI** for a smooth experience.  
-✔ **Infinite Scrolling** – Seamless game browsing without pagination.  
-✔ **Optimized Performance** – **React Query** for efficient API fetching & caching.  
-✔ **Smooth Animations** – Powered by **Framer Motion**.  
-✔ **State Management** – Lightweight & fast **Zustand** store.  
-✔ **Game Data from RAWG.io API** – Stay up-to-date with a vast gaming database.
+✅ **Browse & Search** – Find games by **genre, platform, and rating**. 🎮  
+✅ **Smart Filtering & Sorting** – Narrow down results with multiple criteria. 🎯  
+✅ **Responsive & Modern UI** – Built with **Chakra UI** for a smooth experience. 📱💻  
+✅ **Infinite Scrolling** – Seamless game browsing without pagination. 🔄  
+✅ **Optimized Performance** – **React Query** for efficient API fetching & caching. ⚡  
+✅ **Smooth Animations** – Powered by **Framer Motion**. 🏃‍♂️💨  
+✅ **State Management** – Lightweight & fast **Zustand** store. 🏗️  
+✅ **Game Data from RAWG.io API** – Stay up-to-date with a vast gaming database. 🎲
 
 ---
 
 ## 🛠️ Tech Stack
 
-🔹 **React** – UI library for building interactive applications.  
-🔹 **TypeScript** – Type safety for robust development.  
-🔹 **React Query** – Smart caching & efficient data fetching.  
-🔹 **Chakra UI** – Beautiful and accessible component library.  
-🔹 **Zustand** – Fast and minimal state management.  
-🔹 **Axios** – Easy HTTP requests.  
-🔹 **Framer Motion** – Elegant animations and transitions.  
-🔹 **React Icons** – A diverse collection of icons.  
-🔹 **React Router** – Seamless navigation experience.  
-🔹 **Infinite Scroll Component** – Enables smooth infinite scrolling.  
-🔹 **RAWG.io API** – Real-time game information provider.
+🔹 **React** – UI library for building interactive applications. ⚛️  
+🔹 **TypeScript** – Type safety for robust development. 📌  
+🔹 **React Query** – Smart caching & efficient data fetching. 📡  
+🔹 **Chakra UI** – Beautiful and accessible component library. 🎨  
+🔹 **Zustand** – Fast and minimal state management. 🏎️  
+🔹 **Axios** – Easy HTTP requests. 🌍  
+🔹 **Framer Motion** – Elegant animations and transitions. 🎬  
+🔹 **React Icons** – A diverse collection of icons. 🖼️  
+🔹 **React Router** – Seamless navigation experience. 🛤️  
+🔹 **Infinite Scroll Component** – Enables smooth infinite scrolling. 🔄  
+🔹 **RAWG.io API** – Real-time game information provider. 🎮
 
 ---
 
-## 📦 Dependencies
+## 📦 Dependencies 📦
 
 This project is powered by the following libraries:
 
@@ -66,25 +68,25 @@ This project is powered by the following libraries:
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository 🛠️
 
 ```sh
 git clone https://github.com/Shaz-gill/react-typescript-game-verse.git
 ```
 
-### 2️⃣ Navigate to the Project Directory
+### 2️⃣ Navigate to the Project Directory 📂
 
 ```sh
 cd react-typescript-game-verse
 ```
 
-### 3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies 📦
 
 ```sh
 npm install
 ```
 
-### 4️⃣ Start the Development Server
+### 4️⃣ Start the Development Server 🚀
 
 ```sh
 npm run dev
@@ -94,7 +96,7 @@ npm run dev
 
 ---
 
-## 🔒 API Key Warning
+## ⚠️ API Key Warning 🔒
 
 ⚠️ **Important:**  
 This project **directly exposes the RAWG API key in the frontend**. Be mindful of API usage limits and potential security risks.  
@@ -102,7 +104,7 @@ For **better security**, consider using a backend proxy to handle API requests a
 
 ---
 
-## 📜 License
+## 📜 License 📝
 
 This project is licensed under the **MIT License**.  
 Feel free to **use, modify, and distribute** it as you like! 🎉
